@@ -23,19 +23,14 @@
             "customWebpackConfig": {
               "path": "./webpack/webpack.custom.js"
             },
-            "outputPath": "build/resources/main/static/",
-            "index": "src/main/webapp/index.html",
-            "main": "src/main/webapp/main.ts",
+            "outputPath": "dist",
+            "index": "src/index.html",
+            "main": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/main/webapp/content",
-              "src/main/webapp/favicon.ico",
-              "src/main/webapp/manifest.webapp",
-              "src/main/webapp/robots.txt"
-            ],
-            "styles": ["src/main/webapp/content/scss/vendor.scss", "src/main/webapp/content/scss/global.scss"],
+            "assets": ["src/content", "src/favicon.ico", "src/manifest.webapp", "src/robots.txt"],
+            "styles": ["src/content/scss/vendor.scss", "src/content/scss/global.scss"],
             "scripts": []
           },
           "configurations": {
